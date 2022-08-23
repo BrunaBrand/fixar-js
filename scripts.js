@@ -36,10 +36,42 @@ let student = {
   weight: 61
 }
 
-console.log(
-  `${student.name} de idade ${student.age} pesa ${student.weight} kg.`
-)
+// console.log(
+//   `${student.name} de idade ${student.age} pesa ${student.weight} kg.`
+// )
 
 /*
-   5. Declare uma variável do tipo Array, de nome studentes e atribua a ela nenhum valor, ou seja, somente o Array vazio
+   5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio
  */
+
+let students = []
+
+/*
+   6. Reatribua valor para variável acima, colocando dentro dela o objeto student da questão 4. (Não copie e cole o objeto, mas use o objeto criado e insira ele no array.)
+*/
+
+students = [student]
+console.log(students)
+
+/*
+   7. Coloque no console o valor da posição zero do Array acima
+*/
+
+// console.log(students[0])
+
+/*
+   8. Crie um novo student e coloque na posição 1 do Array students
+*/
+
+const gabriel = {
+  name: 'Gabriel',
+  age: 29,
+  weight: 70
+}
+
+students[1] = gabriel
+
+//or
+
+// students = [student, gabriel]
+console.log(students)
